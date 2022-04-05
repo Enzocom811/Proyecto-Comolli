@@ -37,7 +37,7 @@ body {
 .subtitulos {
     color: #191919;
     padding: 10px 10px 0 100px;
-    margin:60px 0 5px 0;
+    margin:10px 0 5px 0;
     text-decoration: underline;
 }
 
@@ -91,6 +91,7 @@ header nav div a {
 .presentacion-container {
     height: 50%;
 /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
+    margin-bottom: 100px;
     border: 7px solid #e8a142;
 
     display: flex;
@@ -121,19 +122,21 @@ header nav div a {
 .fechas-container {
     height: 200px;
     margin-top: 25px;
+    margin-bottom: 100px;
     border: 7px solid #e8a142;
 }
 
 .parrafo-fechas {
     color: #191919;
     font-size: 1.5em;
-    padding: 65px 280px 0 20px;
+    padding: 40px 280px 0 20px;
+    margin-left: 15px;
 
 
-    display: flex;
+/*     display: flex;
     justify-content: start;
     align-content: center;
-    text-align: justify;
+    text-align: justify; */
 }
 
 
@@ -144,6 +147,7 @@ header nav div a {
 .fotos-container {
     color: #191919;
     margin-top: 25px;
+    margin-bottom: 100px;
     border: 7px solid #e8a142;
     /* background-color: #191919 */;
 }
@@ -161,7 +165,7 @@ header nav div a {
 
 .videos-container {
     border: 7px solid #e8a142;
-    margin: 25px 0;
+    margin: 25px 0 100px 0;
 }
 
 .video {
@@ -180,7 +184,7 @@ header nav div a {
     border: 7px solid #e8a142;
     /* background-color: #191919 */;
     height: 200px;
-    margin: 25px 0;
+    margin: 25px 0 10px 0;
 }
 
 .parrafo-contacto {
