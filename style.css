@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+}
+
+body {
+    background-image: url("/images/Kathy/album.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    text-decoration: none;
+    font-family: roboto-fuente
+}
+
+/* Fuentes */
+
+@font-face {
+    font-family:roboto-fuente;
+    src:url("/Roboto-fonts/Roboto-Medium.ttf") ;
+}
+
+/* Fin fuentes */
+
+.subtitulos {
+    color: #191919;
+    padding: 10px 10px 0 100px;
+    text-decoration: underline;
+}
+
+/* Header */
+
+.header-container {
+    background-color: #e8a142;
+    padding: 10px 0;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: #faebd7;
+    width: 65%;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav div a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Fin header */
+
+/* Logo */
+.logo-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 27%;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Fin logo */
+
+/* inicio */
+
+.presentacion-container {
+    height: 50%;
+    /* padding: 10px 0; */
+
+    border: 7px solid #e8a142;
+
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-presentacion {
+    width: 60%;
+    margin: 5px 0 0 120px;
+
+    display: inline
+}
+
+.parrafo {
+    color: #191919;
+    font-size: 1.5em;
+    padding: 100px 280px 0 80px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
+}
+
+/* Fin inicio */
+
+/* Fechas */
+.fechas-container {
+    height: 200px;
+    margin-top: 50px;
+    border: 7px solid #e8a142;
+}
+
+.parrafo-fechas {
+    color: #191919;
+    font-size: 1.5em;
+    padding: 35px 280px 0 20px;
+
+
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    text-align: justify;
+}
+
+
+/* Fin fechas */
+
+/* Galeria */
+
+.fotos-container {
+    color: #191919;
+    margin-top: 50px;
+    border: 7px solid #e8a142;
+    /* background-color: #191919 */;
+}
+
+.imagen-show {
+    width: 20%;
+
+    display: flex;
+    
+}
+
+/* Fin Galeria */
+
+/* Videos */
+
+.videos-container {
+    border: 7px solid #e8a142;
+    margin: 50px 0;
+}
+
+.video {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Fin videos */
+
+/* Contacto */
+
+.contacto-container {
+    color: #191919;
+    border: 7px solid #e8a142;
+    /* background-color: #191919 */;
+    height: 200px;
+    margin: 50px 0;
+}
+
+.parrafo-contacto {
+    color: #191919;
+    font-size: 1.5em;
+    padding: 35px 280px 0 20px;
+
+
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    text-align: justify;
+}
+
+/* Icono wsp */
+
+.wspicon {
+    width: 5%;
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+}
+
+/* Fin icono wsp */
+
+/* Fin Contacto */
+
+/* Footer */
+
+.footer-container {
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.icon-redes {
+    width: 4%;
+}
+
+/* Fin footer */
