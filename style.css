@@ -89,8 +89,7 @@ header nav div a {
 
 .presentacion-container {
     height: 50%;
-    /* padding: 10px 0; */
-
+/* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     border: 7px solid #e8a142;
 
     display: flex;
