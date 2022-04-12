@@ -34,12 +34,16 @@ body {
 
 /* Fin fuentes */
 
+/* Titulos de las secciones */
+
 .subtitulos {
     color: #191919;
     padding: 10px 10px 0 100px;
     margin:10px 0 5px 0;
     text-decoration: underline;
 }
+
+/*  Fin titulos de las secciones */
 
 /* Header */
 
@@ -235,18 +239,17 @@ header nav div a {
 
 .contacto-container {
     color: #191919;
-    border: 5px solid #e8a142;
-    border-radius: 5px;
+    /* border: 5px solid #e8a142; */
+    /* border-radius: 5px; */
     /* background-color: #191919 */;
     height: 200px;
-    margin: 25px 0 35px 0;
+    margin: 40px 0 35px 0;
 }
 
-.parrafo-contacto {
+.datos {
     color: #191919;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0 280px 10px 20px;
-    margin: 0 0 30px 0;
 
 
     display: flex;
@@ -279,7 +282,7 @@ header nav div a {
 .footer-container {
     background-color: white;
     margin-bottom: 0;
-    border: 7px solid black;
+    border: 5px solid black;
     display: flex;
     justify-content: center;
 }
