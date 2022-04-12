@@ -96,7 +96,8 @@ header nav div a {
     height: 50%;
 /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     margin-bottom: 100px;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
 
     display: flex;
     justify-content: center;
@@ -127,7 +128,8 @@ header nav div a {
 .fechas-container {
     height: 200px;
     margin: 25px 0 100px 0;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
 
     display: flex;
     justify-content: space-between;
@@ -151,7 +153,8 @@ header nav div a {
 
 .photo-grid-container {
     margin: 25px 0 100px 0;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
 
     display: flex;
     justify-content: center;
@@ -171,7 +174,8 @@ header nav div a {
 /* Videos */
 
 .videos-container {
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
     margin: 25px 0 100px 0;
 
     display: flex;
@@ -193,7 +197,8 @@ header nav div a {
 
 .contacto-container {
     color: #191919;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
     /* background-color: #191919 */;
     height: 200px;
     margin: 25px 0 35px 0;
