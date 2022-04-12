@@ -218,7 +218,7 @@ header nav div a {
 /* Videos */
 
 .videos-container {
-    border: 5px solid #e8a142;
+    /* border: 5px solid #e8a142; */
     border-radius: 5px;
     margin: 25px 0 100px 0;
 
@@ -237,7 +237,7 @@ header nav div a {
 
 /* Agrego transiciones a la imagen de la presentacion */
 .video:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
     transition: all 0.5s;
 }
 

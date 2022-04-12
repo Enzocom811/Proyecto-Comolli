@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- CSS -->
 
     <link rel="stylesheet" href="style.css">
@@ -15,7 +17,7 @@
 
     <!-- Header -->
     
-    <header class="header-container">
+    <header class="header-container" data-aos="fade-up">
         <nav class="header">
             <div class="inicio">
                 <a href="#inicio">INICIO</a>
@@ -35,7 +37,7 @@
         </nav>
     </header>
 
-    <section class="logos-container">
+    <section class="logos-container" data-aos="fade-up">
         <div class="logos">
         <!-- El logo está en construcción -->
             <div class="logos-redes">
@@ -53,7 +55,7 @@
 
     <!-- Inicio - Presentación -->
     <section id="inicio">
-        <div class="presentacion-container">
+        <div class="presentacion-container" data-aos="fade-up">
             <div class="imagen-presentacion">
             <img src="/images/Kathy/presen-2.jpg" alt="">
             </div>
@@ -67,7 +69,7 @@
     <!-- Fin Inicio -->
 
     <!-- Fechas -->
-    <section id="fechas">
+    <section id="fechas" data-aos="fade-up">
         <div class="subtitulos">
             <h2>PRÓXIMAS FECHAS</h2>
         </div>
@@ -92,7 +94,7 @@
 
     <!-- Galería -->
     <!-- Proximamente voy a intentar colocar un carousel con bootstrap -->
-    <section id="galeria">
+    <section id="galeria" data-aos="fade-up">
         <div class="subtitulos">
             <h2>GALERÍA</h2>
         </div>
@@ -119,7 +121,7 @@
     <!-- Fin Galería -->
 
     <!-- Videos -->
-    <section id="videos">
+    <section id="videos" data-aos="fade-up">
         <div class="subtitulos">
         <h2>VIDEOS</h2>
         </div>
@@ -133,7 +135,7 @@
 
     <!-- Contacto -->
     <!-- Es posible que esta seccion en un futuro sea una lista -->
-    <section id="contacto">
+    <section id="contacto" data-aos="zoom-in">
         <div class="subtitulos">
         <h2>CONTACTO</h2>
         </div>
@@ -157,7 +159,8 @@
     </section>
 
     <!-- Footer -->
-    <section class="footer-container">
+    <section class="footer-container" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <div class="footer">
             <div class="logos-redes-footer">
                 <a href="https://www.instagram.com/kathygmusica/" target="_blank"><img src="/images/icons8-instagram-24.png" alt=""></a>
@@ -180,6 +183,9 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
