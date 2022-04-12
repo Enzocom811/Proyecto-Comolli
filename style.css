@@ -139,7 +139,7 @@ header nav div a {
 
 /* Agrego transiciones a la imagen de la presentacion */
 .imagen-presentacion:hover {
-    transform: scale(1.3);
+    transform: scale(1.4);
     transition: all 0.5s;
 }
 
@@ -258,10 +258,16 @@ header nav div a {
 /* Icono wsp */
 
 .wspicon {
-    width: 5%;
+    width: 3.5%;
     position: fixed;
     bottom: 0;
     right: 25px;
+}
+
+/* Agrego transiciones al icono de wsp */
+.wspicon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
 }
 
 /* Fin icono wsp */
