@@ -223,6 +223,12 @@ header nav div a {
     justify-content: center;
 }
 
+/* Agrego transiciones a la imagen de la presentacion */
+.video:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
 /* Fin videos */
 
 /* Contacto */
