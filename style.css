@@ -34,12 +34,16 @@ body {
 
 /* Fin fuentes */
 
+/* Titulos de las secciones */
+
 .subtitulos {
     color: #191919;
     padding: 10px 10px 0 100px;
     margin:10px 0 5px 0;
     text-decoration: underline;
 }
+
+/*  Fin titulos de las secciones */
 
 /* Header */
 
@@ -64,6 +68,32 @@ body {
 header nav div a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* Agrego transiciones al navbar de la presentacion */
+.inicio:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.fechas:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.galeria:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.videos:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.contacto:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
 }
 
 /* Fin header */
@@ -96,7 +126,8 @@ header nav div a {
     height: 50%;
 /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     margin-bottom: 100px;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
 
     display: flex;
     justify-content: center;
@@ -108,6 +139,12 @@ header nav div a {
 
     display: inline;
     
+}
+
+/* Agrego transiciones a la imagen de la presentacion */
+.imagen-presentacion:hover {
+    transform: scale(1.4);
+    transition: all 0.5s;
 }
 
 .parrafo {
@@ -127,7 +164,6 @@ header nav div a {
 .fechas-container {
     height: 200px;
     margin: 25px 0 100px 0;
-    border: 7px solid #e8a142;
 
     display: flex;
     justify-content: space-between;
@@ -138,11 +174,21 @@ header nav div a {
 .parrafo-fechas {
     color: #191919;
     font-size: 1.5em;
-    margin-left: 30px;
-
 
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+.parrafo-fechas-item {
+    border: 3.5px solid black;
+    border-radius: 5px;
+    margin: 0 14px 0 14px;
+}
+
+/* Agrego transiciones a las fechas */
+.parrafo-fechas-item:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
 }
 
 /* Fin fechas */
@@ -151,7 +197,8 @@ header nav div a {
 
 .photo-grid-container {
     margin: 25px 0 100px 0;
-    border: 7px solid #e8a142;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
 
     display: flex;
     justify-content: center;
@@ -171,7 +218,8 @@ header nav div a {
 /* Videos */
 
 .videos-container {
-    border: 7px solid #e8a142;
+    /* border: 5px solid #e8a142; */
+    border-radius: 5px;
     margin: 25px 0 100px 0;
 
     display: flex;
@@ -187,23 +235,29 @@ header nav div a {
     justify-content: center;
 }
 
+/* Agrego transiciones a la imagen de la presentacion */
+.video:hover {
+    transform: scale(1.25);
+    transition: all 0.5s;
+}
+
 /* Fin videos */
 
 /* Contacto */
 
 .contacto-container {
     color: #191919;
-    border: 7px solid #e8a142;
+    /* border: 5px solid #e8a142; */
+    /* border-radius: 5px; */
     /* background-color: #191919 */;
     height: 200px;
-    margin: 25px 0 35px 0;
+    margin: 40px 0 35px 0;
 }
 
-.parrafo-contacto {
+.datos {
     color: #191919;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0 280px 10px 20px;
-    margin: 0 0 30px 0;
 
 
     display: flex;
@@ -215,10 +269,16 @@ header nav div a {
 /* Icono wsp */
 
 .wspicon {
-    width: 5%;
+    width: 3.5%;
     position: fixed;
     bottom: 0;
     right: 25px;
+}
+
+/* Agrego transiciones al icono de wsp */
+.wspicon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
 }
 
 /* Fin icono wsp */
@@ -230,7 +290,7 @@ header nav div a {
 .footer-container {
     background-color: white;
     margin-bottom: 0;
-    border: 7px solid black;
+    border: 5px solid black;
     display: flex;
     justify-content: center;
 }
