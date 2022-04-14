@@ -20,6 +20,7 @@ body {
     background-image: url("/images/Kathy/album.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
     text-decoration: none;
     font-family: roboto-fuente
 }
@@ -219,7 +220,7 @@ header nav div a {
 
 .videos-container {
     /* border: 5px solid #e8a142; */
-    /* border-radius: 5px; */
+    border-radius: 5px;
     margin: 25px 0 100px 0;
 
     display: flex;
@@ -289,31 +290,26 @@ header nav div a {
 
 .footer-container {
     background-color: white;
-    margin-bottom: 0;
     border: 5px solid black;
     display: flex;
     justify-content: center;
-    
 }
 
 .footer {
-    width: 17%;
+    width: 15%;
+    /* height: 200px; */
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logos-redes-footer {
-    width: 9%;
 }
 
 .logo-footer {
     width: 100%;
+}
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logos-redes-footer {
+    width: 12%;
 }
 
 /* Fin footer */
