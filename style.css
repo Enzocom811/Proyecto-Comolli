@@ -166,32 +166,22 @@ header nav div a {
 /* Fin inicio */
 
 /* Fechas */
-.fechas-container {
-    height: 200px;
-    margin: 25px 0 100px 0;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+/* Aplico el sistema de grids de bootstrap */
+.row {
+margin: 25px 0 100px 0;
 }
 
-.parrafo-fechas {
+.col {
     color: #191919;
     font-size: 1.5em;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.parrafo-fechas-item {
     border: 3.5px solid black;
     border-radius: 5px;
-    margin: 0 14px 0 14px;
+    margin: 50px 14px 0 14px;
 }
 
+
 /* Agrego transiciones a las fechas */
-.parrafo-fechas-item:hover {
+.col:hover {
     transform: scale(1.05);
     transition: all 0.2s;
 }
