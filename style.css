@@ -74,27 +74,32 @@ header nav div a {
 .inicio:hover {
     transform: scale(1.2);
     transition: all 0.4s;
+    text-decoration: underline;
     
 }
 
 .fechas:hover {
     transform: scale(1.2);
     transition: all 0.4s;
+    text-decoration: underline;
 }
 
 .galeria:hover {
     transform: scale(1.2);
     transition: all 0.4s;
+    text-decoration: underline;
 }
 
 .videos:hover {
     transform: scale(1.2);
     transition: all 0.4s;
+    text-decoration: underline;
 }
 
 .contacto:hover {
     transform: scale(1.2);
     transition: all 0.4s;
+    text-decoration: underline;
 }
 
 /* Fin header */
