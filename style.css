@@ -20,7 +20,6 @@ body {
     background-image: url("/images/Kathy/album.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
     text-decoration: none;
     font-family: roboto-fuente
 }
@@ -121,7 +120,7 @@ header nav div a {
 }
 
 .logos-redes {
-    width: 8%;
+    width:15%;
 }
 
 /* Fin logo */
@@ -199,33 +198,10 @@ header nav div a {
 
 /* Fin fechas */
 
-/* Galeria */
-
-.photo-grid-container {
-    margin: 25px 0 100px 0;
-    border: 5px solid #e8a142;
-    border-radius: 5px;
-
-    display: flex;
-    justify-content: center;
-}
-
-
-.photo-grid {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-
-/* Fin Galeria */
 
 /* Videos */
 
 .videos-container {
-    /* border: 5px solid #e8a142; */
-    border-radius: 5px;
     margin: 25px 0 100px 0;
 
     display: flex;
@@ -314,7 +290,7 @@ header nav div a {
 }
 
 .logos-redes-footer {
-    width: 12%;
+    width: 25%;
 }
 
 /* Fin footer */
