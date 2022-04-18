@@ -230,7 +230,7 @@ margin: 25px 0 100px 0;
 
 .datos {
     color: #191919;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 0 280px 10px 20px;
 
 
@@ -282,7 +282,7 @@ margin: 25px 0 100px 0;
 }
 
 .logos-redes-footer {
-    width: 25%;
+    width: 15%;
 }
 
 /* Fin footer */
@@ -290,7 +290,7 @@ margin: 25px 0 100px 0;
 
 /* Media quaries */
 
-/* Mobile */
+/* Mobile extra pequeñas */
 @media screen and (max-width: 576px) {
     .header-container {
         padding: 15px 0;
@@ -393,3 +393,431 @@ margin: 25px 0 100px 0;
         }
 
 }
+
+/* Fin Mobile extra pequeñas */
+
+/* Mobile pequeñas */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .header-container {
+        padding: 15px 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+
+    .logos-container {
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos {
+        width: 40%;
+        /* height: 300px; */
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .logos-redes {
+        width: 10%;
+    }
+
+    .presentacion-container {
+        height: 150px;
+    /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
+        margin-bottom: 100px;
+        border: 3px solid #e8a142;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-presentacion {
+        width: 50%;
+        margin: 25px 10px 0 15px;
+        padding: auto;
+    }
+
+    .parrafo {
+        color: #191919;
+        font-size: 0.9em;
+        padding: 0px;
+        margin: 4px 5px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    .subtitulos {
+    color: #191919;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    }
+
+    .col {
+        font-size: 15px;
+    }
+
+    .wspicon {
+    width: 7%;
+    bottom: 15px;
+    right: 15px; 
+    }
+
+    .footer-container {
+    height: 75px;
+    border: 2px solid black;
+    }
+
+.footer {
+    width: 30%;
+}
+
+    .logo-footer {
+    width: 100%;
+    }
+        
+    .logos-redes-footer {
+    width: 15%;
+    }
+
+}
+
+/* Fin Mobile pequeñas */
+
+/* Mobile Medianas */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header-container {
+        padding: 15px 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+
+    .logos-container {
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos {
+        width: 40%;
+        /* height: 300px; */
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .logos-redes {
+        width: 10%;
+    }
+
+    .presentacion-container {
+        height: 200px;
+    
+        margin-bottom: 100px;
+        border: 3px solid #e8a142;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-presentacion {
+        width: 35%;
+        margin: 25px 10px 0 15px;
+        padding: auto;
+    }
+
+    .parrafo {
+        color: #191919;
+        font-size: 0.9em;
+        padding: 0px;
+        margin: 4px 5px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    .subtitulos {
+    color: #191919;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    }
+
+    .col {
+        font-size: 15px;
+    }
+
+    .wspicon {
+    width: 7%;
+    bottom: 15px;
+    right: 15px; 
+    }
+
+    .footer-container {
+    height: 75px;
+    border: 2px solid black;
+    }
+
+.footer {
+    width: 30%;
+}
+
+    .logo-footer {
+    width: 100%;
+    }
+        
+    .logos-redes-footer {
+    width: 15%;
+    }
+
+}
+
+/* Pantallas Medianas */
+
+/* Pantallas Grandes */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-container {
+        padding: 15px 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+
+    .logos-container {
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos {
+        width: 40%;
+        /* height: 300px; */
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .logos-redes {
+        width: 5%;
+    }
+
+    .presentacion-container {
+        height: 250px;
+    
+        margin-bottom: 100px;
+        border: 3px solid #e8a142;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-presentacion {
+        width: 35%;
+        margin: 25px 10px 0 15px;
+        padding: auto;
+    }
+
+    .parrafo {
+        color: #191919;
+        font-size: 1em;
+        padding: 0px;
+        margin: 4px 5px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    .subtitulos {
+    color: #191919;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    }
+
+    .col {
+        font-size: 20px;
+    }
+
+    .wspicon {
+    width: 5%;
+    bottom: 15px;
+    right: 15px; 
+    }
+
+    .footer-container {
+    height: 75px;
+    border: 2px solid black;
+    }
+
+.footer {
+    width: 30%;
+}
+
+    .logo-footer {
+    width: 50%;
+    }
+        
+    .logos-redes-footer {
+    width: 8%;
+    }
+
+}
+
+/* Fin Pantallas Grandes */
+
+/* Pantallas extre grandes */
+
+@media screen and (min-width: 992px) {
+    .header-container {
+        padding: 15px 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+
+    .logos-container {
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos {
+        width: 40%;
+        /* height: 300px; */
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .logos-redes {
+        width: 5%;
+    }
+
+    .presentacion-container {
+        height: 250px;
+    
+        margin-bottom: 100px;
+        border: 3px solid #e8a142;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-presentacion {
+        width: 25%;
+        margin: 25px 10px 0 15px;
+        padding: auto;
+    }
+
+    .parrafo {
+        color: #191919;
+        font-size: 1.1em;
+        padding: 0px;
+        margin: 4px 5px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    .subtitulos {
+    color: #191919;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    }
+
+    .col {
+        font-size: 20px;
+    }
+
+    .wspicon {
+    width: 5%;
+    bottom: 15px;
+    right: 15px; 
+    }
+
+    .footer-container {
+    height: 100px;
+    border: 2px solid black;
+    }
+
+.footer {
+    width: 30%;
+}
+
+    .logo-footer {
+    width: 50%;
+    }
+        
+    .logos-redes-footer {
+    width: 7%;
+    }
+
+}
+
+/* Fin Pantallas extre grandes */
