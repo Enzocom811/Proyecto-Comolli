@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 
 img {
     width: 100%;
-    padding: 10px;
+    padding: 0;
 }
 
 video {
@@ -28,7 +29,7 @@ body {
 
 @font-face {
     font-family:roboto-fuente;
-    src:url("/Roboto-fonts/Roboto-Medium.ttf") ;
+    src:url("/roboto-fonts/Roboto-Medium.ttf") ;
 }
 
 /* Fin fuentes */
@@ -37,6 +38,7 @@ body {
 
 .subtitulos {
     color: #191919;
+    font-size: 30px;
     padding: 10px 10px 0 100px;
     margin:10px 0 5px 0;
     text-decoration: underline;
@@ -284,3 +286,110 @@ margin: 25px 0 100px 0;
 }
 
 /* Fin footer */
+
+
+/* Media quaries */
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    .header-container {
+        padding: 15px 0;
+    }
+
+    .header {
+        font-size: 10px;
+    }
+
+
+    .logos-container {
+        height: 150px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos {
+        width: 40%;
+        /* height: 300px; */
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .logos-redes {
+        width: 10%;
+    }
+
+    .presentacion-container {
+        height: 150px;
+    /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
+        margin-bottom: 100px;
+        border: 3px solid #e8a142;
+        border-radius: 5px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-presentacion {
+        width: 100%;
+        margin: 25px 10px 0 15px;
+        padding: auto;
+    }
+
+    .parrafo {
+        color: #191919;
+        font-size: 0.8em;
+        padding: 0px;
+        margin: 4px 5px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    .subtitulos {
+    color: #191919;
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+
+    display: flex;
+    justify-content: center;
+    }
+
+    .col {
+        font-size: 15px;
+    }
+
+    .wspicon {
+        width: 10%;
+        bottom: 10px;
+        right: 10px; 
+    }
+
+    .footer-container {
+        height: 50px;
+        border: 2px solid black;
+    }
+
+.footer {
+    width: 30%;
+}
+
+        .logo-footer {
+            width: 100%;
+        }
+        
+        .logos-redes-footer {
+            width: 30%;
+        }
+
+}
