@@ -120,8 +120,12 @@ header nav div a {
     align-items: center;
 }
 
+.logo {
+    width: 60%;
+}
+
 .logos-redes {
-    width:8%;
+    width:4%;
 }
 
 /* Fin logo */
@@ -242,7 +246,7 @@ margin: 25px 0 100px 0;
 .wspicon {
     width: 3.5%;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 25px;
 }
 
@@ -288,7 +292,7 @@ margin: 25px 0 100px 0;
 /* MEDIA QUERIES */
 
 /* Pantallas extra pequeñas */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (max-height: 915px) {
 .header-container {
     padding: 15px 0;
 }
@@ -698,4 +702,6 @@ justify-content: center;
 }
 
 /* Fin Pantallas Grandes */
+
+/* FIN MEDIA QUERIES */
 
