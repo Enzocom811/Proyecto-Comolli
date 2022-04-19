@@ -10,7 +10,6 @@ html {
 
 img {
     width: 100%;
-    padding: 0;
 }
 
 video {
@@ -114,7 +113,7 @@ header nav div a {
 
 .logos {
     width: 35%;
-    height: 300px;
+    height: 250px;
 
     display: flex;
     justify-content: space-between;
@@ -122,7 +121,7 @@ header nav div a {
 }
 
 .logos-redes {
-    width:15%;
+    width:8%;
 }
 
 /* Fin logo */
@@ -131,7 +130,6 @@ header nav div a {
 
 .presentacion-container {
     height: 50%;
-/* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     margin-bottom: 100px;
     border: 5px solid #e8a142;
     border-radius: 5px;
@@ -141,16 +139,15 @@ header nav div a {
 }
 
 .imagen-presentacion {
-    width: 30%;
-    margin: 5px 0 0 85px;
+    width: 20%;
+    margin: 15px 15px 15px 30px;
 
-    display: inline;
     
 }
 
 /* Agrego transiciones a la imagen de la presentacion */
 .imagen-presentacion:hover {
-    transform: scale(1.4);
+    transform: scale(1.25);
     transition: all 0.5s;
 }
 
@@ -288,7 +285,7 @@ margin: 25px 0 100px 0;
 /* Fin footer */
 
 
-/* Media quaries */
+/* MEDIA QUERIES */
 
 /* Pantallas extra pequeñas */
 @media screen and (max-width: 576px) {
@@ -328,7 +325,6 @@ margin: 25px 0 100px 0;
 
 .presentacion-container {
     height: 150px;
-/* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     margin-bottom: 100px;
     border: 3px solid #e8a142;
     border-radius: 5px;
@@ -338,7 +334,7 @@ margin: 25px 0 100px 0;
 }
     
 .imagen-presentacion {
-    width: 100%;
+    width: 50%;
     margin: 25px 10px 0 15px;
     padding: auto;
 }
@@ -388,7 +384,7 @@ justify-content: center;
 }
 
 .logos-redes-footer {
-    width: 30%;
+    width: 20%;
 }
 
 }
@@ -416,15 +412,13 @@ justify-content: center;
     
 .logos {
     width: 40%;
-    /* height: 300px; */
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    width: 60%;
+    width: 100%;
 }
 
 .logos-redes {
@@ -432,8 +426,6 @@ justify-content: center;
 }
 
 .presentacion-container {
-    height: 150px;
-    /* Los bordes, tanto este como lo demas, lo puse para identificar las secciones, puede que en un futuro lo saque a todos o a algunos  */
     margin-bottom: 100px;
     border: 3px solid #e8a142;
     border-radius: 5px;
@@ -444,7 +436,7 @@ justify-content: center;
 
 .imagen-presentacion {
     width: 50%;
-    margin: 25px 10px 0 15px;
+    margin: 10px;
     padding: auto;
 }
 
@@ -533,11 +525,10 @@ justify-content: center;
 }
 
 .logos-redes {
-    width: 10%;
+    width: 6%;
 }
 
 .presentacion-container {
-    height: 200px;
     margin-bottom: 100px;
     border: 3px solid #e8a142;
     border-radius: 5px;
@@ -548,7 +539,7 @@ justify-content: center;
 
 .imagen-presentacion {
     width: 35%;
-    margin: 25px 10px 0 15px;
+    margin: 10px 10px 10px 15px;
     padding: auto;
 }
 
@@ -593,11 +584,11 @@ justify-content: center;
 }
 
     .logo-footer {
-    width: 100%;
+    width: 60%;
 }
 
     .logos-redes-footer {
-    width: 15%;
+    width: 10%;
 }
 
 }
@@ -642,7 +633,6 @@ justify-content: center;
 }
 
 .presentacion-container {
-    height: 250px;
     margin-bottom: 100px;
     border: 3px solid #e8a142;
     border-radius: 5px;
@@ -653,7 +643,7 @@ justify-content: center;
 
 .imagen-presentacion {
     width: 35%;
-    margin: 25px 10px 0 15px;
+    margin: 15px;
     padding: auto;
 }
 
@@ -709,107 +699,3 @@ justify-content: center;
 
 /* Fin Pantallas Grandes */
 
-/* Pantallas extre grandes */
-
-@media screen and (min-width: 992px) {
-.header-container {
-    padding: 15px 0;
-}
-
-.header {
-    font-size: 12px;
-}
-
-
-.logos-container {
-    height: 150px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
-.logos {
-    width: 40%;
-    /* height: 300px; */
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    width: 60%;
-}
-
-.logos-redes {
-    width: 5%;
-}
-
-.presentacion-container {
-    height: 250px;
-    margin-bottom: 100px;
-    border: 3px solid #e8a142;
-    border-radius: 5px;
-
-    display: flex;
-    justify-content: center;
-}
-
-.imagen-presentacion {
-    width: 25%;
-    margin: 25px 10px 0 15px;
-    padding: auto;
-}
-
-.parrafo {
-    color: #191919;
-    font-size: 1.1em;
-    padding: 0px;
-    margin: 4px 5px;
-
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.subtitulos {
-    color: #191919;
-    font-size: 30px;
-    padding: 0;
-    margin:0;
-
-    display: flex;
-    justify-content: center;
-}
-
-.col {
-    font-size: 20px;
-}
-
-.wspicon {
-    width: 5%;
-    bottom: 15px;
-    right: 15px; 
-}
-
-.footer-container {
-    height: 100px;
-    border: 2px solid black;
-}
-
-.footer {
-    width: 30%;
-}
-
-.logo-footer {
-    width: 50%;
-}
-
-.logos-redes-footer {
-    width: 7%;
-}
-
-}
-
-/* Fin Pantallas extre grandes */
