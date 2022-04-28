@@ -1,10 +1,12 @@
-@import "variables";
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/colors";
 
 /* HEADER */
 
 /* Aplico Nesting en el header */
 .header-container {
-    background-color: $color-border;
+    background-color: nth($colores, 1);
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -23,8 +25,9 @@
             a {
                 color: $color-bg-hd-ftr;
                 text-decoration: none;
+                /* MIXIN */
                 &:hover {
-                    color: #191919;
+                    color: mix($naranja, $blanco);
                 }
             }
         }

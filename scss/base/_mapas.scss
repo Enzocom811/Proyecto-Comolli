@@ -1,0 +1,9 @@
+
+$perfil-standard: (
+    bg-color-standard: #ffffff,
+    border-color-standard: 2px solid #191919
+);
+
+#standard {
+    background-color: map-get($perfil-standard, bg-color-standard);
+}

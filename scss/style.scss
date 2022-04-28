@@ -1,10 +1,14 @@
-@import "header";
-@import "logos";
-@import "inicio";
-@import "fechas";
-@import "videos";
-@import "contacto";
-@import "footer";
+@import "componentes/header";
+@import "componentes/logos";
+@import "componentes/inicio";
+@import "componentes/fechas";
+@import "componentes/videos";
+@import "componentes/contacto";
+@import "componentes/footer";
+@import "base/listas";
+@import "base/mapas";
+@import "base/variables";
+@import "base/colors";
 
 * {
     padding: 0;

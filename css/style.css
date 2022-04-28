@@ -1,5 +1,13 @@
 @charset "UTF-8";
 /* COLORES */
+.presentacion-container {
+  border-bottom: 5px solid #dc891b;
+}
+
+.presentacion-container {
+  border-top: 5px solid #eeb86f;
+}
+
 /* HEADER */
 /* Aplico Nesting en el header */
 .header-container {
@@ -23,9 +31,10 @@
 .header-container .header div a {
   color: #ffffff;
   text-decoration: none;
+  /* MIXIN */
 }
 .header-container .header div a:hover {
-  color: #191919;
+  color: #f4d0a1;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .header-container .header {
@@ -186,6 +195,14 @@
 }
 
 /* FIN LOGOS */
+.presentacion-container {
+  border-bottom: 5px solid #dc891b;
+}
+
+.presentacion-container {
+  border-top: 5px solid #eeb86f;
+}
+
 /* INICIO */
 .presentacion-container {
   height: 50%;
@@ -296,6 +313,10 @@
 
 /* Fin icono wsp */
 /* FIN CONTACTO */
+#standard {
+  background-color: #ffffff;
+}
+
 /* FOOTER */
 .footer-container {
   background-color: #ffffff;
@@ -320,6 +341,19 @@
 }
 
 /* FIN FOOTER */
+#standard {
+  background-color: #ffffff;
+}
+
+/* COLORES */
+.presentacion-container {
+  border-bottom: 5px solid #dc891b;
+}
+
+.presentacion-container {
+  border-top: 5px solid #eeb86f;
+}
+
 * {
   padding: 0;
   margin: 0;
