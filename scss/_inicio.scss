@@ -1,0 +1,37 @@
+/* INICIO */
+
+.presentacion-container {
+    height: 50%;
+    margin-bottom: 100px;
+    border: 5px solid #e8a142;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-presentacion {
+    width: 20%;
+    margin: 15px 15px 15px 30px;
+
+    
+}
+
+/* Agrego transiciones a la imagen de la presentacion */
+.imagen-presentacion:hover {
+    transform: scale(1.25);
+    transition: all 0.5s;
+}
+
+.parrafo {
+    color: #191919;
+    font-size: 1.5em;
+    padding: 50px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: justify;
+}
+
+/* FIN INICIO */

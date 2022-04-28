@@ -1,0 +1,39 @@
+/* CONTACTO */
+
+.contacto-container {
+    color: #191919;
+    /* border: 5px solid #e8a142; */
+    /* border-radius: 5px; */
+    /* background-color: #191919 */;
+    height: 200px;
+    margin: 40px 0 35px 0;
+}
+
+.datos {
+    color: #191919;
+    font-size: 1.5em;
+    padding: 0 280px 10px 20px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    text-align: justify;
+}
+
+/* Icono wsp */
+
+.wspicon {
+    width: 3.5%;
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+}
+
+/* Agrego transiciones al icono de wsp */
+.wspicon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+/* Fin icono wsp */
+
+/* FIN CONTACTO */

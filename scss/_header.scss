@@ -1,0 +1,58 @@
+@import "variables";
+
+/* HEADER */
+
+/* Aplico Nesting en el header */
+.header-container {
+    background-color: $color-border;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    .header {
+        color: #faebd7;
+        width: 65%;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        div {
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.4s;
+                text-decoration: underline;
+            }
+            a {
+                color: $color-bg-hd-ftr;
+                text-decoration: none;
+                &:hover {
+                    color: #191919;
+                }
+            }
+        }
+        @media screen and (max-width: 576px) and (max-height: 915px) {
+            font-size: 10px;
+        }
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+            font-size: 12px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            font-size: 12px;
+        }
+        @media screen and (min-width: 992px) and (max-width: 1200px){
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 576px) and (max-height: 915px) {
+        padding: 15px 0;
+    }
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        padding: 15px 0;
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        padding: 15px 0;
+    }
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        padding: 15px 0;
+    }
+}
+
+/* FIN HEADER */
