@@ -12,6 +12,14 @@
     justify-content: center;
 }
 
+.presentacion-container {
+    border-bottom: 5px solid darken($naranja, 10%);
+}
+
+.presentacion-container {
+    border-top: 5px solid lighten($naranja, 10%);
+}
+
 .imagen-presentacion {
     width: 20%;
     margin: 15px 15px 15px 30px;

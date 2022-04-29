@@ -1,7 +1,5 @@
 @charset "UTF-8";
 /* COLORES */
-
-
 /* HEADER */
 /* Aplico Nesting en el header */
 .header-container {
@@ -189,7 +187,6 @@
 }
 
 /* FIN LOGOS */
-
 /* INICIO */
 .presentacion-container {
   height: 50%;
@@ -242,6 +239,17 @@
   border: 3.5px solid black;
   border-radius: 5px;
   margin: 50px 14px 0 14px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
 }
 
 /* Agrego transiciones a las fechas */
@@ -341,14 +349,6 @@
 }
 
 /* COLORES */
-.presentacion-container {
-  border-bottom: 5px solid #dc891b;
-}
-
-.presentacion-container {
-  border-top: 5px solid #eeb86f;
-}
-
 * {
   padding: 0;
   margin: 0;
