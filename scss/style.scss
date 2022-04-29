@@ -10,53 +10,12 @@
 @import "base/variables";
 @import "base/colors";
 @import "componentes/galeria";
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-img {
-    width: 100%;
-}
-
-video {
-    width: 100%;
-}
-
-body {
-    background-image: url("/images/album.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-    font-family: roboto-fuente
-}
-
-/* Fuentes */
-
-@font-face {
-    font-family:roboto-fuente;
-    src:url("/roboto-fonts/Roboto-Medium.ttf") ;
-}
-
-/* Fin fuentes */
-
-/* Titulos de las secciones */
-
-.subtitulos {
-    color: #191919;
-    font-size: 30px;
-    padding: 10px 10px 0 100px;
-    margin:10px 0 5px 0;
-    text-decoration: underline;
-}
-
-/*  Fin titulos de las secciones */
+@import "componentes/restore";
+@import "componentes/html";
+@import "componentes/img-video";
+@import "componentes/body";
+@import "base/fuentes";
+@import "componentes/subtitulos";
 
 /* MEDIA QUERIES */
 
@@ -108,23 +67,6 @@ body {
         width: 10%;
         bottom: 10px;
         right: 10px; 
-    }
-    
-    .footer-container {
-        height: 80px;
-        border: 2px solid black;
-    }
-    
-    .footer {
-        width: 50%;
-    }
-    
-    .logo-footer {
-        width: 37%;
-    }
-    
-    .logos-redes-footer {
-        width: 10%;
     }
     
     }
@@ -180,23 +122,6 @@ body {
         right: 15px; 
     }
     
-    .footer-container {
-        height: 100px;
-        border: 2px solid black;
-    }
-    
-    .footer {
-        width: 30%;
-    }
-    
-    .logo-footer {
-        width: 50%;
-    }
-    
-    .logos-redes-footer {
-        width: 15%;
-    }
-    
     }
     
     /* Fin Pantallas pequeñas */
@@ -248,23 +173,6 @@ body {
         width: 7%;
         bottom: 15px;
         right: 15px; 
-    }
-    
-    .footer-container {
-        height: 125px;
-        border: 2px solid black;
-    }
-    
-    .footer {
-        width: 30%;
-    }
-    
-        .logo-footer {
-        width: 50%;
-    }
-    
-        .logos-redes-footer {
-        width: 10%;
     }
     
     }
@@ -319,23 +227,6 @@ body {
         width: 5%;
         bottom: 15px;
         right: 15px; 
-    }
-    
-    .footer-container {
-        height: 150px;
-        border: 2px solid black;
-    }
-    
-    .footer {
-        width: 30%;
-    }
-    
-    .logo-footer {
-        width: 45%;
-    }
-    
-    .logos-redes-footer {
-        width: 8%;
     }
     
     }

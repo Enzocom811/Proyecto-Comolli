@@ -457,7 +457,6 @@ body {
   font-family: roboto-fuente;
   src: url("/roboto-fonts/Roboto-Medium.ttf");
 }
-/* Fin fuentes */
 /* Titulos de las secciones */
 .subtitulos {
   color: #191919;
@@ -514,23 +513,6 @@ body {
     bottom: 10px;
     right: 10px;
   }
-
-  .footer-container {
-    height: 80px;
-    border: 2px solid black;
-  }
-
-  .footer {
-    width: 50%;
-  }
-
-  .logo-footer {
-    width: 37%;
-  }
-
-  .logos-redes-footer {
-    width: 10%;
-  }
 }
 /* Fin Pantallas extra pequeñas */
 /* Pantallas pequeñas */
@@ -576,23 +558,6 @@ body {
     width: 7%;
     bottom: 15px;
     right: 15px;
-  }
-
-  .footer-container {
-    height: 100px;
-    border: 2px solid black;
-  }
-
-  .footer {
-    width: 30%;
-  }
-
-  .logo-footer {
-    width: 50%;
-  }
-
-  .logos-redes-footer {
-    width: 15%;
   }
 }
 /* Fin Pantallas pequeñas */
@@ -640,23 +605,6 @@ body {
     bottom: 15px;
     right: 15px;
   }
-
-  .footer-container {
-    height: 125px;
-    border: 2px solid black;
-  }
-
-  .footer {
-    width: 30%;
-  }
-
-  .logo-footer {
-    width: 50%;
-  }
-
-  .logos-redes-footer {
-    width: 10%;
-  }
 }
 /* Pantallas Medianas */
 /* Pantallas Grandes */
@@ -702,23 +650,6 @@ body {
     width: 5%;
     bottom: 15px;
     right: 15px;
-  }
-
-  .footer-container {
-    height: 150px;
-    border: 2px solid black;
-  }
-
-  .footer {
-    width: 30%;
-  }
-
-  .logo-footer {
-    width: 45%;
-  }
-
-  .logos-redes-footer {
-    width: 8%;
   }
 }
 /* Fin Pantallas Grandes */
