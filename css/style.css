@@ -321,20 +321,97 @@ h4 {
   display: flex;
   justify-content: center;
 }
-
-.footer {
+.footer-container .footer {
   width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo-footer {
+.footer-container .footer .logo-footer {
   width: 40%;
 }
-
-.logos-redes-footer {
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  .footer-container .footer .logo-footer {
+    width: 37%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-container .footer .logo-footer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-container .footer .logo-footer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-container .footer .logo-footer {
+    width: 45%;
+  }
+}
+.footer-container .footer .logos-redes-footer {
   width: 10%;
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  .footer-container .footer .logos-redes-footer {
+    width: 10%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-container .footer .logos-redes-footer {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-container .footer .logos-redes-footer {
+    width: 10%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-container .footer .logos-redes-footer {
+    width: 8%;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  .footer-container .footer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-container .footer {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-container .footer {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-container .footer {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  .footer-container {
+    height: 80px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-container {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-container {
+    height: 125px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-container {
+    height: 150px;
+  }
 }
 
 /* FIN FOOTER */
