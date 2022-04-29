@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* COLORES */
-.presentacion-container {
-  border-bottom: 5px solid #dc891b;
-}
 
-.presentacion-container {
-  border-top: 5px solid #eeb86f;
-}
 
 /* HEADER */
 /* Aplico Nesting en el header */
@@ -195,13 +189,6 @@
 }
 
 /* FIN LOGOS */
-.presentacion-container {
-  border-bottom: 5px solid #dc891b;
-}
-
-.presentacion-container {
-  border-top: 5px solid #eeb86f;
-}
 
 /* INICIO */
 .presentacion-container {
@@ -211,6 +198,14 @@
   border-radius: 5px;
   display: flex;
   justify-content: center;
+}
+
+.presentacion-container {
+  border-bottom: 5px solid #dc891b;
+}
+
+.presentacion-container {
+  border-top: 5px solid #eeb86f;
 }
 
 .imagen-presentacion {
