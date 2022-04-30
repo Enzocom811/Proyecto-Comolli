@@ -7,9 +7,12 @@
 /* Aplico Nesting en el header */
 .header-container {
     background-color: nth($colores, 1);
+    border: 2px solid darken($naranja, 15%);
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
     .header {
         color: #faebd7;
         width: 65%;

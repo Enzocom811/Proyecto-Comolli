@@ -4,9 +4,12 @@
 /* Aplico Nesting en el header */
 .header-container {
   background-color: #e8a142;
+  border: 2px solid #c57b18;
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 .header-container .header {
   color: #faebd7;
@@ -334,16 +337,13 @@ h4 {
   display: flex;
   justify-content: center;
 }
-
-.video {
+.videos-container .video {
   width: 65%;
   padding: 20px;
   display: flex;
   justify-content: center;
 }
-
-/* Agrego transiciones a la imagen de la presentacion */
-.video:hover {
+.videos-container .video:hover {
   transform: scale(1.25);
   transition: all 0.5s;
 }

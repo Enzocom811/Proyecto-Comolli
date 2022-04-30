@@ -2,24 +2,18 @@
 
 .videos-container {
     margin: 25px 0 300px 0;
-
     display: flex;
     justify-content: center;
-    
-}
-
-.video {
-    width: 65%;
-    padding: 20px;
-
-    display: flex;
-    justify-content: center;
-}
-
-/* Agrego transiciones a la imagen de la presentacion */
-.video:hover {
-    transform: scale(1.25);
-    transition: all 0.5s;
+    .video {
+        width: 65%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        &:hover {
+            transform: scale(1.25);
+            transition: all 0.5s;
+        }
+    }
 }
 
 /* FIN VIDEOS */
