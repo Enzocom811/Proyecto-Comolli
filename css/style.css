@@ -189,12 +189,12 @@
 /* INICIO */
 #inicio .presentacion-container {
   margin-bottom: 300px;
-  border: 4px solid #e8a142;
+  border: 3px solid #e8a142;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  border-bottom: 4px solid #d3841a;
-  border-top: 4px solid #f0c386;
+  border-bottom: 3px solid #d3841a;
+  border-top: 3px solid #f0c386;
 }
 #inicio .presentacion-container .imagen-presentacion {
   width: 35%;
@@ -530,7 +530,6 @@ section .wspicon:hover {
 /* GALERIA */
 #carousel {
   margin-bottom: 300px;
-  z-index: -1;
 }
 
 /* FIN GALERIA */
