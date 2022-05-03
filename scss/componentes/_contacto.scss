@@ -4,15 +4,20 @@
     .contacto-container {
     color: #191919;
     height: 200px;
-    margin: 40px 0 35px 0;
+    margin: 0 100px 35px 100px;
     .datos {
+        background-color: $color-bg-hd-ftr;
+        margin-top: 20px;
+        border: 2px solid darken($naranja, 15%);
+        border-radius: 5px;
         color: #191919;
         font-size: 1.5em;
-        padding: 0 280px 10px 20px;
-        display: flex;
-        justify-content: start;
-        align-content: center;
-        text-align: justify;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        p {
+            margin: 0;
+        }
         }
     }
 }

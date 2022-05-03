@@ -1,6 +1,7 @@
 /* COLORES */
 /* HEADER */
 .header-container {
+  margin: 0 150px;
   background-color: #e8a142;
   border: 2px solid #c57b18;
   padding: 20px 0;
@@ -20,7 +21,7 @@
   text-decoration: underline;
 }
 .header-container .header div a {
-  color: #ffffff;
+  color: rgb(245, 245, 239);
   text-decoration: none;
   /* MIXIN */
 }
@@ -71,7 +72,10 @@
 /* FIN HEADER */
 /* LOGOS */
 .logos-container {
-  background-color: #ffffff;
+  border: 2px solid #c57b18;
+  border-top: none;
+  margin: 0 150px;
+  background-color: rgb(245, 245, 239);
   display: flex;
   justify-content: center;
 }
@@ -187,8 +191,9 @@
 
 /* FIN LOGOS */
 /* INICIO */
-#inicio .presentacion-container {
-  margin-bottom: 300px;
+section .presentacion-container {
+  background-color: rgb(245, 245, 239);
+  margin: 0 150px 300px 150px;
   border: 3px solid #e8a142;
   border-radius: 5px;
   display: flex;
@@ -196,17 +201,17 @@
   border-bottom: 3px solid #d3841a;
   border-top: 3px solid #f0c386;
 }
-#inicio .presentacion-container .imagen-presentacion {
+section .presentacion-container .imagen-presentacion {
   width: 35%;
   margin: 15px 15px 15px 30px;
   display: flex;
 }
-#inicio .presentacion-container .imagen-presentacion:hover {
+section .presentacion-container .imagen-presentacion:hover {
   transform: scale(1.15);
   transition: all 0.5s;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
-  #inicio .presentacion-container .imagen-presentacion {
+  section .presentacion-container .imagen-presentacion {
     width: 350px;
     height: 100px;
     margin: 22px 10px 0 15px;
@@ -214,25 +219,25 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  #inicio .presentacion-container .imagen-presentacion {
+  section .presentacion-container .imagen-presentacion {
     width: 50%;
     margin: 10px;
     padding: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  #inicio .presentacion-container .imagen-presentacion {
+  section .presentacion-container .imagen-presentacion {
     margin: 10px 10px 10px 15px;
     padding: auto;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  #inicio .presentacion-container .imagen-presentacion {
+  section .presentacion-container .imagen-presentacion {
     margin: 15px;
     padding: auto;
   }
 }
-#inicio .presentacion-container .parrafo {
+section .presentacion-container .parrafo {
   color: #191919;
   font-size: 1.5em;
   padding: 50px;
@@ -242,54 +247,54 @@
   text-align: justify;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
-  #inicio .presentacion-container .parrafo {
+  section .presentacion-container .parrafo {
     font-size: 0.6em;
     padding: 0;
     margin: 4px 5px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  #inicio .presentacion-container .parrafo {
+  section .presentacion-container .parrafo {
     font-size: 0.9em;
     padding: 0;
     margin: 4px 5px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  #inicio .presentacion-container .parrafo {
+  section .presentacion-container .parrafo {
     font-size: 0.9em;
     padding: 0;
     margin: 4px 5px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  #inicio .presentacion-container .parrafo {
+  section .presentacion-container .parrafo {
     font-size: 1em;
     padding: 0;
     margin: 4px 5px;
   }
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
-  #inicio .presentacion-container {
+  section .presentacion-container {
     height: 150px;
     margin-bottom: 100px;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  #inicio .presentacion-container {
+  section .presentacion-container {
     margin-bottom: 100px;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  #inicio .presentacion-container {
+  section .presentacion-container {
     margin-bottom: 100px;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  #inicio .presentacion-container {
+  section .presentacion-container {
     margin-bottom: 100px;
     border: 3px solid #e8a142;
   }
@@ -301,6 +306,7 @@
   margin: 25px 0 300px 0;
 }
 .container .row .col {
+  background-color: rgb(245, 245, 239);
   color: #191919;
   font-size: 1.5em;
   border: 3.5px solid black;
@@ -364,16 +370,21 @@
 #contacto .contacto-container {
   color: #191919;
   height: 200px;
-  margin: 40px 0 35px 0;
+  margin: 0 100px 35px 100px;
 }
 #contacto .contacto-container .datos {
+  background-color: rgb(245, 245, 239);
+  margin-top: 20px;
+  border: 2px solid #c57b18;
+  border-radius: 5px;
   color: #191919;
   font-size: 1.5em;
-  padding: 0 280px 10px 20px;
-  display: flex;
-  justify-content: start;
-  align-content: center;
-  text-align: justify;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+#contacto .contacto-container .datos p {
+  margin: 0;
 }
 
 /* ICONO WSP */
@@ -423,7 +434,7 @@ section .wspicon:hover {
 
 /* FOOTER */
 .footer-container {
-  background-color: #ffffff;
+  background-color: rgb(245, 245, 239);
   border: 2px solid #191919;
   display: flex;
   justify-content: center;
@@ -529,7 +540,9 @@ section .wspicon:hover {
 /* COLORES */
 /* GALERIA */
 #carousel {
-  margin-bottom: 300px;
+  border: 2px solid #c57b18;
+  border-top: none;
+  margin: 0 150px 300px 150px;
 }
 
 /* FIN GALERIA */
@@ -578,7 +591,7 @@ body {
   color: #191919;
   font-size: 30px;
   padding: 10px 10px 0 100px;
-  margin: 10px 0 5px 0;
+  margin: 0px 100px 5px 100px;
   text-decoration: underline;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
