@@ -1,7 +1,10 @@
 /* LOGOS */
 
 .logos-container {
-    background-color: #ffffff;
+    border: 2px solid darken($naranja, 15%);
+    border-top: none;
+    margin: 0 150px;
+    background-color:rgb(245, 245, 239);
     display: flex;
     justify-content: center;
     .logos {

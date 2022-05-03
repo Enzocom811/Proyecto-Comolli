@@ -5,6 +5,7 @@
 /* HEADER */
 
 .header-container {
+    margin: 0 150px;
     background-color: nth($colores, 1);
     border: 2px solid darken($naranja, 15%);
     padding: 20px 0;
