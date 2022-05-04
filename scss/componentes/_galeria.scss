@@ -1,10 +1,12 @@
 /* GALERIA */
 
 #carousel {
-    border: 2px solid darken($naranja, 15%);
-    border-radius: 3px;
-    border-top: none;
     margin: 0 150px 300px 150px;
+    .carousel-inner {
+        border: 2px solid darken($naranja, 15%);
+        border-radius: 3px;
+        border-top: none;
+    }
 }
 
 

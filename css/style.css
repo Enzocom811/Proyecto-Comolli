@@ -543,10 +543,12 @@ section .wspicon:hover {
 /* COLORES */
 /* GALERIA */
 #carousel {
+  margin: 0 150px 300px 150px;
+}
+#carousel .carousel-inner {
   border: 2px solid #c57b18;
   border-radius: 3px;
   border-top: none;
-  margin: 0 150px 300px 150px;
 }
 
 /* FIN GALERIA */
