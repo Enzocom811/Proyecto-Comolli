@@ -328,7 +328,7 @@ section .presentacion-container .parrafo {
 }
 .container .row .col:hover {
   transform: scale(1.05);
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .container .row .col {
@@ -394,7 +394,7 @@ section .presentacion-container .parrafo {
 section .wspicon {
   width: 3.5%;
   position: fixed;
-  bottom: 10px;
+  bottom: 25px;
   right: 25px;
 }
 section .wspicon:hover {
@@ -439,6 +439,7 @@ section .wspicon:hover {
 .footer-container {
   background-color: rgb(245, 245, 239);
   border: 2px solid #191919;
+  border-radius: 3px;
   display: flex;
   justify-content: center;
 }
