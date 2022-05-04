@@ -1,24 +1,38 @@
 /* CONTACTO */
 
 #contacto {
-    .contacto-container {
-    color: #191919;
-    height: 200px;
-    margin: 0 100px 35px 250px;
-    .datos {
-        background-color: $color-bg-hd-ftr;
-        margin-top: 20px;
-        border: 2px solid darken($naranja, 15%);
-        border-radius: 5px;
-        color: #191919;
-        font-size: 1.5em;
-        padding: 10px;
-        display: inline-block;
-        p {
-            margin: 0;
-        }
+    .contacto-container.aos-init.aos-animate {
+        .datos-container {
+            color: #191919;
+            height: 200px;
+            margin: 0 100px 35px 250px;
+            .datos {
+            background-color: $color-bg-hd-ftr;
+            margin-top: 20px;
+            border: 2px solid darken($naranja, 15%);
+            border-radius: 5px;
+            color: #191919;
+            font-size: 1.5em;
+            padding: 10px;
+            display: inline-block;
+                p {
+                    margin: 0;
+                }
+                @media screen and (max-width: 576px) and (max-height: 915px) {
+                    font-size: 1em;
+                    margin: 20px 0 0 10px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+    }
+    @media screen and (max-width: 576px) and (max-height: 915px) {
+        display: flex;
+        justify-content: end;
+        align-items: center;
         }
     }
+    
 }
 
 
@@ -38,7 +52,8 @@ section {
 
     @media screen and (max-width: 576px) and (max-height: 915px) {
         width: 10%;
-        right: 10px;
+        right: 15px;
+        bottom: 15px;
     }
     @media screen and (min-width: 576px) and (max-width: 768px) {
         width: 7%;

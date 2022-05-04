@@ -51,22 +51,22 @@
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .header-container {
-    padding: 15px 0;
+    display: none;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .header-container {
-    padding: 15px 0;
+    display: none;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .header-container {
-    padding: 15px 0;
+    display: none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .header-container {
-    padding: 15px 0;
+    display: none;
   }
 }
 
@@ -164,13 +164,17 @@
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .logos-container {
-    height: 200px;
+    border-top: 2px solid #c57b18;
+    margin: 0;
+    height: 150px;
     padding: 0;
     align-items: center;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .logos-container {
+    border-top: 2px solid #c57b18;
+    margin: 0;
     height: 200px;
     padding: 0;
     align-items: center;
@@ -178,6 +182,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .logos-container {
+    border-top: 2px solid #c57b18;
+    margin: 0;
     height: 200px;
     padding: 0;
     align-items: center;
@@ -185,6 +191,8 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .logos-container {
+    border-top: 2px solid #c57b18;
+    margin: 0;
     height: 200px;
     padding: 0;
     align-items: center;
@@ -280,26 +288,26 @@ section .presentacion-container .parrafo {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   section .presentacion-container {
+    margin: 0 0 100px 0;
     height: 150px;
-    margin-bottom: 100px;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   section .presentacion-container {
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   section .presentacion-container {
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
     border: 3px solid #e8a142;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   section .presentacion-container {
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
     border: 3px solid #e8a142;
   }
 }
@@ -371,12 +379,12 @@ section .presentacion-container .parrafo {
 
 /* FIN VIDEOS */
 /* CONTACTO */
-#contacto .contacto-container {
+#contacto .contacto-container.aos-init.aos-animate .datos-container {
   color: #191919;
   height: 200px;
   margin: 0 100px 35px 250px;
 }
-#contacto .contacto-container .datos {
+#contacto .contacto-container.aos-init.aos-animate .datos-container .datos {
   background-color: rgb(245, 245, 239);
   margin-top: 20px;
   border: 2px solid #c57b18;
@@ -386,8 +394,23 @@ section .presentacion-container .parrafo {
   padding: 10px;
   display: inline-block;
 }
-#contacto .contacto-container .datos p {
+#contacto .contacto-container.aos-init.aos-animate .datos-container .datos p {
   margin: 0;
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  #contacto .contacto-container.aos-init.aos-animate .datos-container .datos {
+    font-size: 1em;
+    margin: 20px 0 0 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  #contacto .contacto-container.aos-init.aos-animate {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
 }
 
 /* ICONO WSP */
@@ -404,7 +427,8 @@ section .wspicon:hover {
 @media screen and (max-width: 576px) and (max-height: 915px) {
   section .wspicon {
     width: 10%;
-    right: 10px;
+    right: 15px;
+    bottom: 15px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -550,6 +574,11 @@ section .wspicon:hover {
   border: 2px solid #c57b18;
   border-radius: 3px;
   border-top: none;
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  #carousel {
+    margin: 0 0 100px 0;
+  }
 }
 
 /* FIN GALERIA */

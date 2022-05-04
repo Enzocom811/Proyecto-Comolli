@@ -7,6 +7,9 @@
         border-radius: 3px;
         border-top: none;
     }
+    @media screen and (max-width: 576px) and (max-height: 915px) {
+        margin: 0 0 100px 0;
+    }
 }
 
 
