@@ -374,7 +374,7 @@ section .presentacion-container .parrafo {
 #contacto .contacto-container {
   color: #191919;
   height: 200px;
-  margin: 0 100px 35px 100px;
+  margin: 0 100px 35px 250px;
 }
 #contacto .contacto-container .datos {
   background-color: rgb(245, 245, 239);
@@ -385,7 +385,6 @@ section .presentacion-container .parrafo {
   font-size: 1.5em;
   padding: 10px;
   display: inline-block;
-  text-align: center;
 }
 #contacto .contacto-container .datos p {
   margin: 0;
