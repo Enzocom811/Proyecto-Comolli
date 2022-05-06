@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-comolli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enzocom811/Proyecto-Comolli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enzocom811/Proyecto-Comolli/issues"
+  },
+  "homepage": "https://github.com/Enzocom811/Proyecto-Comolli#readme"
+}
