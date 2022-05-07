@@ -6,15 +6,17 @@
     display: flex;
     justify-content: center;
     
+    
     .video {
         width: 65%;
         padding: 20px;
         display: flex;
         justify-content: center;
-        &:hover {
-            transform: scale(1.25);
+        
+        /* &:hover {
+            transform: scale(1.05);
             transition: all 0.5s;
-            }
+            } */
         }
     }
 }

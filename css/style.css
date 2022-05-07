@@ -489,10 +489,10 @@ section .presentacion-container .parrafo {
   padding: 20px;
   display: flex;
   justify-content: center;
-}
-#videos .videos-container .video:hover {
-  transform: scale(1.25);
-  transition: all 0.5s;
+  /* &:hover {
+      transform: scale(1.05);
+      transition: all 0.5s;
+      } */
 }
 
 /* FIN VIDEOS */
@@ -586,6 +586,8 @@ section .wspicon:hover {
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  position: sticky;
+  bottom: 0;
 }
 .footer-container .footer {
   width: 15%;
