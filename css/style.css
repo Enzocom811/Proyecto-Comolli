@@ -8,6 +8,7 @@
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .header-container .header {
   color: #faebd7;
@@ -80,6 +81,7 @@
   background-color: rgb(245, 245, 239);
   display: flex;
   justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .logos-container .logos {
   width: 35%;
@@ -210,10 +212,10 @@ section .presentacion-container {
   justify-content: center;
   border-bottom: 3px solid #d3841a;
   border-top: 3px solid #f0c386;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 section .presentacion-container .imagen-presentacion {
-  border: 2px solid black;
-  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   width: 35%;
   margin: 15px 15px 15px 30px;
   display: flex;
@@ -321,9 +323,10 @@ section .presentacion-container .parrafo {
   background-color: rgb(245, 245, 239);
   color: #191919;
   font-size: 1.5em;
-  border: 3.5px solid black;
+  border: 3px solid black;
   border-radius: 5px;
   margin: 50px 14px 0 14px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .container .row .col h3 {
   display: flex;
@@ -385,6 +388,7 @@ section .presentacion-container .parrafo {
   margin: 0 100px 35px 250px;
 }
 #contacto .contacto-container.aos-init.aos-animate .datos-container .datos {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   background-color: rgb(245, 245, 239);
   margin-top: 20px;
   border: 2px solid #c57b18;
@@ -466,6 +470,7 @@ section .wspicon:hover {
   border-radius: 3px;
   display: flex;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 .footer-container .footer {
   width: 15%;
@@ -569,6 +574,7 @@ section .wspicon:hover {
 /* GALERIA */
 #carousel {
   margin: 0 150px 300px 150px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 #carousel .carousel-inner {
   border: 2px solid #c57b18;
