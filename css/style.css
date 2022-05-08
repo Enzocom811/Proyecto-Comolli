@@ -497,41 +497,75 @@ section .presentacion-container .parrafo {
 
 /* FIN VIDEOS */
 /* CONTACTO */
-#contacto .contacto-container.aos-init.aos-animate .datos-container {
-  color: #191919;
-  height: 200px;
-  margin: 0 100px 35px 250px;
+.container .row {
+  margin: 25px 0 300px 0;
 }
-#contacto .contacto-container.aos-init.aos-animate .datos-container .datos {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+.container .row .col {
   background-color: rgb(245, 245, 239);
-  margin-top: 20px;
-  border: 2px solid #c57b18;
-  border-radius: 5px;
   color: #191919;
   font-size: 1.5em;
-  padding: 10px;
-  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 50px 14px 0 14px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#contacto .contacto-container.aos-init.aos-animate .datos-container .datos p {
-  margin: 0;
+.container .row .col .num {
+  margin-top: 3px;
+}
+.container .row .col .icon-tel {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+}
+.container .row .col .icon-email {
+  width: 7%;
+  display: flex;
+  justify-content: center;
+}
+.container .row .col .icon-ig {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .row .col h3 {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+.container .row .col h4 {
+  display: flex;
+  justify-content: center;
+}
+.container .row .col:hover {
+  transform: scale(1.05);
+  transition: all 0.4s;
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
-  #contacto .contacto-container.aos-init.aos-animate .datos-container .datos {
-    font-size: 1em;
-    margin: 20px 0 0 10px;
-    display: flex;
-    justify-content: center;
+  .container .row .col {
+    font-size: 15px;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 915px) {
-  #contacto .contacto-container.aos-init.aos-animate {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container .row .col {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container .row .col {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container .row .col {
+    font-size: 20px;
   }
 }
 
+/* FIN CONTACTO */
 /* ICONO WSP */
 section .wspicon {
   width: 3.5%;
