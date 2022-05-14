@@ -6,7 +6,7 @@ section {
     .presentacion-container {
         background-color: rgb(245, 245, 239);
         margin: 0 150px 300px 150px;
-        
+        border:2px solid #e8a142;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -23,8 +23,8 @@ section {
                 transition: all 0.5s;
             }
             @media screen and (max-width: 576px) and (max-height: 915px) {
-                width: 350px;
-                height: 100px;
+                width: 450px;
+                height: 135px;
                 margin: 22px 10px 0 15px;
                 padding: auto;
             }
@@ -74,7 +74,7 @@ section {
         }
         @media screen and (max-width: 576px) and (max-height: 915px) {
             margin: 0 0 100px 0;
-            height: 150px;
+            height: 175px;
             border: 3px solid #e8a142;
         }
         @media screen and (min-width: 576px) and (max-width: 768px) {

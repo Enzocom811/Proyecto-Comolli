@@ -321,6 +321,7 @@ video {
 section .presentacion-container {
   background-color: rgb(245, 245, 239);
   margin: 0 150px 300px 150px;
+  border: 2px solid #e8a142;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -340,8 +341,8 @@ section .presentacion-container .imagen-presentacion:hover {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   section .presentacion-container .imagen-presentacion {
-    width: 350px;
-    height: 100px;
+    width: 450px;
+    height: 135px;
     margin: 22px 10px 0 15px;
     padding: auto;
   }
@@ -405,7 +406,7 @@ section .presentacion-container .parrafo {
 @media screen and (max-width: 576px) and (max-height: 915px) {
   section .presentacion-container {
     margin: 0 0 100px 0;
-    height: 150px;
+    height: 175px;
     border: 3px solid #e8a142;
   }
 }
@@ -475,6 +476,26 @@ section .presentacion-container .parrafo {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  .container .row {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container .row {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container .row {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container .row {
+    margin: 25px 0 100px 0;
+  }
+}
 
 /* FIN FECHAS */
 /* VIDEOS */
@@ -492,6 +513,26 @@ section .presentacion-container .parrafo {
       transform: scale(1.05);
       transition: all 0.5s;
       } */
+}
+@media screen and (max-width: 576px) and (max-height: 915px) {
+  #videos .videos-container {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #videos .videos-container {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #videos .videos-container {
+    margin: 25px 0 100px 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #videos .videos-container {
+    margin: 25px 0 100px 0;
+  }
 }
 
 /* FIN VIDEOS */
@@ -511,6 +552,7 @@ section .presentacion-container .parrafo {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px;
 }
 .contacto-container .telefono-contacto .icon-tel {
@@ -525,36 +567,42 @@ section .presentacion-container .parrafo {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .telefono-contacto h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .contacto-container .telefono-contacto h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .telefono-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .contacto-container .telefono-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .contacto-container .telefono-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .contacto-container .telefono-contacto {
     width: 40%;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1580px) {
+  .contacto-container .telefono-contacto {
+    width: 35%;
+    justify-content: space-between;
   }
 }
 .contacto-container .email-contacto {
@@ -577,36 +625,42 @@ section .presentacion-container .parrafo {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .email-contacto h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .contacto-container .email-contacto h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .email-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .contacto-container .email-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .contacto-container .email-contacto {
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .contacto-container .email-contacto {
     width: 40%;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1580px) {
+  .contacto-container .email-contacto {
+    width: 35%;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
@@ -701,22 +755,22 @@ section .wspicon:hover {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .footer-container .footer .logo-footer {
-    width: 37%;
+    width: 28%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .footer-container .footer .logo-footer {
-    width: 50%;
+    width: 35%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .footer-container .footer .logo-footer {
-    width: 50%;
+    width: 35%;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-container .footer .logo-footer {
-    width: 45%;
+    width: 30%;
   }
 }
 .footer-container .footer .logos-redes-footer {
@@ -724,12 +778,12 @@ section .wspicon:hover {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .footer-container .footer .logos-redes-footer {
-    width: 10%;
+    width: 7%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .footer-container .footer .logos-redes-footer {
-    width: 15%;
+    width: 10%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -769,17 +823,17 @@ section .wspicon:hover {
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .footer-container {
-    height: 100px;
+    height: 90px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .footer-container {
-    height: 125px;
+    height: 110px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .footer-container {
-    height: 150px;
+    height: 125px;
   }
 }
 
