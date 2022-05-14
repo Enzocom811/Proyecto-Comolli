@@ -514,7 +514,7 @@ section .presentacion-container .parrafo {
   padding: 10px;
 }
 .contacto-container .telefono-contacto .icon-tel {
-  width: 7%;
+  width: 8%;
   display: flex;
   align-items: center;
 }
@@ -568,7 +568,7 @@ section .presentacion-container .parrafo {
   padding: 10px;
 }
 .contacto-container .email-contacto .icon-email {
-  width: 7%;
+  width: 8%;
 }
 .contacto-container .email-contacto h3 {
   font-size: 20px;
