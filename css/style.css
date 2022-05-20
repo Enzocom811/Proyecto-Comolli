@@ -577,7 +577,7 @@ section .presentacion-container .parrafo {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .telefono-contacto {
-    width: 70%;
+    width: 75%;
     justify-content: space-between;
   }
 }
@@ -635,7 +635,7 @@ section .presentacion-container .parrafo {
 }
 @media screen and (max-width: 576px) and (max-height: 915px) {
   .contacto-container .email-contacto {
-    width: 70%;
+    width: 75%;
     justify-content: space-between;
   }
 }
